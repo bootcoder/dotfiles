@@ -15,3 +15,9 @@
 
 # .Trashes holds disk specific trash folders
 .Trashes
+
+# .env contains secret keys in conjunction with gems like dotenv and should never be pushed up
+.env
+
+# Installation files for NPM. Generate your own using npm install
+/node_modules
